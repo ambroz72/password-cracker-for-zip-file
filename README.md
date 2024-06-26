@@ -1,3 +1,40 @@
+# 🔐 Python Script to Crack Zip Passwords
+
+![screenshot](passcrack.png)
+
+
+I recently worked on a Python script using libraries like termcolor, tqdm, and zipfile to crack passwords for a ZIP file. Here's a breakdown of what the script does:
+
+Libraries Used:
+
+termcolor: For colored terminal output, making it easier to distinguish between different messages.
+tqdm: Provides a progress bar to track the password cracking process.
+zipfile: Allows manipulation of ZIP archive files in Python.
+Setup:
+
+The script initializes variables and imports necessary libraries.
+Password List:
+
+It reads potential passwords from a file named worldlist.txt and stores them in a list called worldlist.
+Zip File:
+
+It opens a ZIP file named secret.zip using zipfile.ZipFile.
+Password Cracking:
+
+Using a for loop and tqdm for progress tracking, it iterates through each password in worldlist.
+Tries to extract the contents of secret.zip using each password (i.encode() converts the password string to bytes).
+If successful (no exception raised), it stores the password in the variable var, prints a success message in blue using termcolor, and breaks out of the loop.
+If unsuccessful (exception raised), it prints a message indicating which password it's currently checking in green using termcolor and continues to the next password.
+Conclusion:
+
+Once the correct password is found, it prints a success message and stops further attempts.
+This script showcases how Python can be used for password cracking tasks efficiently and illustrates the use of popular libraries for terminal output and progress tracking.
+
+#Python #Cybersecurity #PasswordCracking #Programming
+
+
+
+
 ![screenshot](ps.png)
 The error "comparison method not supported" typically arises when the extractall() method in zipfile.ZipFile expects a password parameter that is a byte-like object (usually from str.encode()),
 but the comparison or usage of the password object is not compatible or expected in that context.
