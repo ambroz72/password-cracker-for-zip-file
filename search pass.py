@@ -4,7 +4,7 @@ import zipfile
 
 var = ""
 worldlist = [passwords.strip() for passwords in open("worldlist.txt")]
-zip_file = zipfile.ZipFile("ufo.zip")
+zip_file = zipfile.ZipFile("gift.zip")
 
 for password in tqdm(worldlist, desc="Checking passwords in worldlist"):
     try:
