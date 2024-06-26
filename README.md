@@ -35,7 +35,7 @@ This script showcases how Python can be used for password cracking tasks efficie
 
 
 
-![screenshot](ps.png)
+# Possible errors
 The error "comparison method not supported" typically arises when the extractall() method in zipfile.ZipFile expects a password parameter that is a byte-like object (usually from str.encode()),
 but the comparison or usage of the password object is not compatible or expected in that context.
 
