@@ -2,7 +2,7 @@
 
 I recently worked on a Python script using libraries like termcolor, tqdm, and zipfile to crack passwords for a ZIP file. Here's a breakdown of what the script does:
 
-![screenshot](screenshot/home.png)
+![screenshot](passcrack.png)
 
 ![Link Text]([passwordcrack.mp4](https://github.com/ambroz72/password-cracker-for-zip-file/blob/master/passwordcrack.mp4))
 
