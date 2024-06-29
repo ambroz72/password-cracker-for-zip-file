@@ -4,7 +4,7 @@ I recently worked on a Python script using libraries like termcolor, tqdm, and z
 
 ![screenshot](passcrack.png)
 
-![Link Text]([passwordcrack.mp4](https://github.com/ambroz72/password-cracker-for-zip-file/blob/master/passwordcrack.mp4))
+![Video Link]([](https://github.com/ambroz72/password-cracker-for-zip-file/blob/master/passwordcrack.mp4))
 
 
 # Libraries Used:
